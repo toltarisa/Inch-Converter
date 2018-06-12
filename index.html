@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewpor" content="width=device-width,initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="row">
+              <div class="col-md-6 offset-md-3">
+                <h1 class="display-4 text-center mb-3">
+                  Inch Converter
+                </h1>
+                <form>
+                  <div class="form-group">
+                    <input id="InchInput" type="number" class="form-control form-control-lg" placeholder="Enter Inch..">
+                  </div>
+                </form>
+
+                <div id="output">
+                    <div class="card card-primary mb-2">
+                        <div class="card-block">
+                            <h4>Centimeters:</h4>
+                            <div id="cmOutput"></div>
+                        </div>
+                    </div>
+
+                    <div class="card card-success mb-2">
+                        <div class="card-block">
+                            <h4>Feets:</h4>
+                            <div id="ftOutput"></div>
+                        </div>
+                    </div>
+
+                    <div class="card card-danger mb-2">
+                        <div class="card-block">
+                            <h4>Yards:</h4>
+                            <div id="ydOutput"></div>
+                        </div>
+                    </div>
+                </div>
+              </div>
+        
+            </div>
+          </div>
+          <script src="app.js"></script>
+    </body>
+</html>
