@@ -1,10 +1,13 @@
+![Inch-Converter](/production.png)
+
+
 # Project Title
 
-Inch Coverter App
+Inch Converter App
 
 ## Description
 
-Coverting Inch Value to Cetnimeter,Feet and Yard
+Converting Inch Value to Cetnimeter,Feet and Yard
 
 
 ### Dependencies
